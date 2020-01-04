@@ -74,8 +74,6 @@ class Ball:
         else:
             self.ball.dx += incr + random_offset_x
             self.ball.dy += incr + random_offset_y
-        print(self.ball.dx, self.ball.dy)
-        print(random_offset_x, random_offset_y)
 
     def reset_ball_speed(self):
         self.ball.dx = self.default_speed
